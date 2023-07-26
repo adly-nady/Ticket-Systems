@@ -1,0 +1,62 @@
+body{
+
+    background-image: url('https://images2.alphacoders.com/101/1012090.jpg');background-size: cover
+}
+.login_circly
+{
+    width:550px;
+    height:480px;
+    border: 2px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-44%);
+    border-radius: 5%;
+    background: linear-gradient(to top, rgb(25, 8, 41),rgb(101, 2, 144),rgb(25, 8, 41));
+    box-shadow: inset 0px 0px 20px 0.3px rgb(14, 16, 31), 0px 0px 20px 0.5px rgba(179, 0, 255, 0.925);
+}
+.btn_adly:active
+{
+    box-shadow: rgb(25, 8, 41) 0 3px 7px inset;
+    transform: translateY(2px);
+}
+.btn_adly
+{
+    width: 200px;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, rgb(101, 2, 144) 0, rgb(25, 8, 41) 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, rgb(58 65 111 / 50%) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+.covers_error{
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+
+}
